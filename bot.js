@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         s0urce.io - The Hacking Game
-// @version      1.0.2
+// @version      1.0.3
 // @match        http*://s0urce.io/*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
 // @require      https://raw.githubusercontent.com/brandonaaron/livequery/1.1.1/jquery.livequery.js
@@ -320,7 +320,7 @@ var list = [
     { md5Key: "b7da5a3bed3d63db71d4b64f65eafd35", value: "deleteallids" },
     { md5Key: "0810a5e04ea066b6afa725b001504496", value: "destroybatch" },
     { md5Key: "7432f3b1ed67da36606ffe26187be78a", value: "disconnectchannel" },
-    { md5Key: "568a57f498801684a6f37fbd383d4f0c", value: "disconnetserver" },
+    { md5Key: "568a57f498801684a6f37fbd383d4f0c", value: "disconnectserver" },
     { md5Key: "e4c292e9388de934bfc1f80f53752c06", value: "dodecahedron" },
     { md5Key: "7b9b4dd883378582bd75d5adc6005bc1", value: "emitconfiglist" },
     { md5Key: "e20fe9555f4e6796b1eaea375decefd4", value: "encodenewfolder" },
