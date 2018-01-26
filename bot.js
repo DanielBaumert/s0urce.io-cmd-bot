@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         s0urce.io - The Hacking Game
-// @version      0.0.1t
+// @version      1.0.0
 // @match        http*://s0urce.io/*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
 // @require      https://raw.githubusercontent.com/brandonaaron/livequery/1.1.1/jquery.livequery.js
@@ -22,9 +22,6 @@
             if (mutation.type == "attributes") {
 
                 var link = imageField.src;
-                var linkItems = link.split("/").reverse();
-                var level = linkItems[1];
-                var item = linkItems[0];
 
                 $.get(link, function(data) {
                     var md5Img = MD5(data);
@@ -32,7 +29,7 @@
                         return item.md5Key == md5Img;
                     });
                     var word = result[0].value;
-                    textField.value = word;
+                    setTimeout(world.lenght * 20, function() { textField.value = word; } );
                 });
             }
         });
